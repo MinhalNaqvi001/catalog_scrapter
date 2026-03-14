@@ -1,0 +1,18 @@
+[project]
+name = "catalog_scraper"
+version = "0.1.0"
+description = "Web scraper for e-commerce catalog site"
+authors = [
+    {name = "Minhal"}
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+    "pandas"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
